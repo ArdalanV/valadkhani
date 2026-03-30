@@ -1,0 +1,217 @@
+:root {
+  --bg: #ffffff;
+  --text: #111111;
+  --pine: #1a3d2e;
+  --lime: #46ef42;
+  --lime-hover: #34c730;
+  --contact-green: #2f7d4f;
+  --contact-green-hover: #246340;
+  --max: 36rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 106%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.55;
+  padding: 2.25rem 1.25rem 3rem;
+}
+
+main {
+  max-width: var(--max);
+  margin: 0 auto;
+}
+
+nav {
+  max-width: var(--max);
+  margin: 0 auto 2.5rem;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 0.95rem;
+}
+
+nav a {
+  color: var(--text);
+  text-decoration: none;
+  margin-right: 1.25rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav a.nav-writings {
+  font-weight: 600;
+}
+
+a.lime {
+  color: var(--lime);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a.lime:hover,
+a.lime:focus {
+  color: var(--lime-hover);
+  text-decoration: underline;
+}
+
+.profile {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.profile img {
+  display: block;
+  width: 11rem;
+  height: 11rem;
+  margin: 0 auto 1rem;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid rgba(26, 61, 46, 0.15);
+}
+
+.profile h1 {
+  margin: 0;
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 1.65rem;
+  font-weight: 700;
+  color: var(--pine);
+  letter-spacing: -0.02em;
+}
+
+.intro {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.interests {
+  margin-top: 2rem;
+}
+
+.interests h2 {
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--pine);
+  margin: 0 0 0.6rem;
+  letter-spacing: -0.01em;
+}
+
+.interests ul {
+  margin: 0;
+  padding-left: 1.2rem;
+  font-size: 0.88rem;
+  color: var(--text);
+}
+
+.interests li {
+  margin-bottom: 0.35rem;
+}
+
+.interests li:last-child {
+  margin-bottom: 0;
+}
+
+.contact {
+  margin: 2.25rem 0 0;
+  font-size: 0.95rem;
+}
+
+a.contact-email {
+  color: var(--contact-green);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a.contact-email:hover,
+a.contact-email:focus {
+  color: var(--contact-green-hover);
+  text-decoration: underline;
+}
+
+.writings-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0;
+}
+
+.writings-list li {
+  margin-bottom: 1.35rem;
+}
+
+.writings-list a {
+  color: var(--text);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.writings-list a:hover {
+  text-decoration: underline;
+}
+
+.writings-list .meta {
+  display: block;
+  font-size: 0.9rem;
+  color: #444;
+  margin-top: 0.2rem;
+}
+
+article.post {
+  margin-top: 0.5rem;
+}
+
+article.post h1 {
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--pine);
+  margin: 0 0 0.25rem;
+  letter-spacing: -0.02em;
+}
+
+article.post .date {
+  font-size: 0.9rem;
+  color: #444;
+  margin: 0 0 1.5rem;
+}
+
+article.post p {
+  margin: 0 0 1rem;
+}
+
+.page-title {
+  font-family: system-ui, -apple-system, sans-serif;
+  font-size: 1.65rem;
+  font-weight: 700;
+  color: var(--pine);
+  margin: 0 0 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+.page-lede {
+  margin: 0 0 0.5rem;
+}
+
+.back-link {
+  margin-top: 2rem;
+}
+
+.back-link a {
+  color: var(--text);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.back-link a:hover {
+  text-decoration: underline;
+}
